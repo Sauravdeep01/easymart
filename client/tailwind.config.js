@@ -7,7 +7,8 @@ export default {
     theme: {
         extend: {
             colors: {
-                primary: '#3b82f6', // Example Custom Color
+                primary: '#FF6B6B', // Example color from the image button likely
+                secondary: '#f8f9fa',
             }
         },
     },
