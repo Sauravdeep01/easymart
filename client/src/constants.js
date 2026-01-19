@@ -67,7 +67,7 @@ export const featuredProducts = [
         category: "Party Wear",
         price: "Rs. 3,200",
         originalPrice: "Rs. 4,500",
-        image: "/src/assets/featuredImages/pic1.png",
+        image: "https://res.cloudinary.com/dzb5izmbr/image/upload/v1768666472/ecommerce_assets/pic1.png",
         badge: "SALE"
     },
     {
@@ -75,7 +75,7 @@ export const featuredProducts = [
         title: "Purple cotton Sarees",
         category: "Casual Wear",
         price: "Rs. 2,800",
-        image: "/src/assets/featuredImages/pic2.png",
+        image: "https://res.cloudinary.com/dzb5izmbr/image/upload/v1768666475/ecommerce_assets/pic2.png",
         badge: "NEW"
     },
     {
@@ -84,7 +84,7 @@ export const featuredProducts = [
         category: "Formal Wear",
         price: "Rs. 5,200",
         originalPrice: "Rs. 6,800",
-        image: "/src/assets/featuredImages/pic3.png",
+        image: "https://res.cloudinary.com/dzb5izmbr/image/upload/v1768666476/ecommerce_assets/pic3.png",
         badge: "PREMIUM"
     },
     {
@@ -92,7 +92,7 @@ export const featuredProducts = [
         title: "Summer Beach Top",
         category: "Beach Wear",
         price: "Rs. 1,900",
-        image: "/src/assets/featuredImages/pic4.png",
+        image: "https://res.cloudinary.com/dzb5izmbr/image/upload/v1768666477/ecommerce_assets/pic4.png",
     },
     {
         id: 5,
@@ -100,7 +100,7 @@ export const featuredProducts = [
         category: "casual wear",
         price: "Rs. 4,100",
         originalPrice: "Rs. 5,500",
-        image: "/src/assets/featuredImages/pic5.png",
+        image: "https://res.cloudinary.com/dzb5izmbr/image/upload/v1768666479/ecommerce_assets/pic5.png",
         badge: "TRENDING"
     },
     {
@@ -108,7 +108,7 @@ export const featuredProducts = [
         title: "Modern Chic Outfit",
         category: "Contemporary",
         price: "Rs. 3,600",
-        image: "/src/assets/featuredImages/pic6.png",
+        image: "https://res.cloudinary.com/dzb5izmbr/image/upload/v1768666480/ecommerce_assets/pic6.png",
         badge: "HOT"
     },
     {
@@ -117,7 +117,7 @@ export const featuredProducts = [
         category: "Designer Collection",
         price: "Rs. 4,800",
         originalPrice: "Rs. 6,200",
-        image: "/src/assets/featuredImages/pic7.png",
+        image: "https://res.cloudinary.com/dzb5izmbr/image/upload/v1768666481/ecommerce_assets/pic7.png",
         badge: "EXCLUSIVE"
     }
 ];

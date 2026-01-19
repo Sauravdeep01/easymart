@@ -1,0 +1,38 @@
+[
+  {
+    "localPath": "/src/assets/featuredImages/pic1.png",
+    "cloudinaryUrl": "https://res.cloudinary.com/dzb5izmbr/image/upload/v1768666472/ecommerce_assets/pic1.png"
+  },
+  {
+    "localPath": "/src/assets/featuredImages/pic2.png",
+    "cloudinaryUrl": "https://res.cloudinary.com/dzb5izmbr/image/upload/v1768666475/ecommerce_assets/pic2.png"
+  },
+  {
+    "localPath": "/src/assets/featuredImages/pic3.png",
+    "cloudinaryUrl": "https://res.cloudinary.com/dzb5izmbr/image/upload/v1768666476/ecommerce_assets/pic3.png"
+  },
+  {
+    "localPath": "/src/assets/featuredImages/pic4.png",
+    "cloudinaryUrl": "https://res.cloudinary.com/dzb5izmbr/image/upload/v1768666477/ecommerce_assets/pic4.png"
+  },
+  {
+    "localPath": "/src/assets/featuredImages/pic5.png",
+    "cloudinaryUrl": "https://res.cloudinary.com/dzb5izmbr/image/upload/v1768666479/ecommerce_assets/pic5.png"
+  },
+  {
+    "localPath": "/src/assets/featuredImages/pic6.png",
+    "cloudinaryUrl": "https://res.cloudinary.com/dzb5izmbr/image/upload/v1768666480/ecommerce_assets/pic6.png"
+  },
+  {
+    "localPath": "/src/assets/featuredImages/pic7.png",
+    "cloudinaryUrl": "https://res.cloudinary.com/dzb5izmbr/image/upload/v1768666481/ecommerce_assets/pic7.png"
+  },
+  {
+    "localPath": "/src/assets/NavbarLogo.png",
+    "cloudinaryUrl": "https://res.cloudinary.com/dzb5izmbr/image/upload/v1768666482/ecommerce_assets/NavbarLogo.png"
+  },
+  {
+    "localPath": "/src/assets/react.svg",
+    "cloudinaryUrl": "https://res.cloudinary.com/dzb5izmbr/image/upload/v1768666484/ecommerce_assets/react.svg"
+  }
+]

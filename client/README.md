@@ -1,16 +1,60 @@
-# React + Vite
+# React + Vite E-Commerce
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a modern e-commerce platform built with React and Vite.
 
-Currently, two official plugins are available:
+## 🚀 Cloudinary Asset Upload Guide
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+If you want to move your static images from `src/assets` to Cloudinary for better performance and easier management, follow these steps:
 
-## React Compiler
+### 1. Prerequisites
+- A [Cloudinary](https://cloudinary.com/) account.
+- Your Cloudinary Cloud Name, API Key, and API Secret (Found in the Cloudinary Dashboard).
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 2. Setup Dependencies
+In the `client` directory, install the required packages:
+```bash
+npm install cloudinary dotenv
+```
 
-## Expanding the ESLint configuration
+### 3. Configure Environment Variables
+Create a `.env` file in the `client` directory (or update the existing one) with your credentials:
+```env
+VITE_CLOUDINARY_CLOUD_NAME=your_cloud_name
+VITE_CLOUDINARY_API_KEY=your_api_key
+VITE_CLOUDINARY_API_SECRET=your_api_secret
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 4. Upload Assets
+Run the provided upload script to upload everything in `src/assets` to Cloudinary:
+```bash
+node upload-assets.js
+```
+This script will:
+- Search for all images in `src/assets`.
+- Upload them to a folder named `ecommerce_assets` in your Cloudinary account.
+- Generate a `src/cloudinary-assets.json` file containing the mapping of original filenames to Cloudinary URLs.
+
+### 5. Using the New URLs
+After running the script, you can import the generated JSON and use the URLs in your components:
+
+```javascript
+import cloudinaryAssets from '../cloudinary-assets.json';
+
+// Example usage
+<img src={cloudinaryAssets['NavbarLogo.png']} alt="Logo" />
+```
+
+---
+
+## Development
+
+### Getting Started
+1. Install dependencies: `npm install`
+2. Run dev server: `npm run dev`
+3. Build for production: `npm run build`
+
+## Features
+- Dynamic Homepage with Carousels
+- Featured Products Section
+- Responsive Navigation Bar
+- Modern UI with Tailwind CSS

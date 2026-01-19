@@ -1,14 +1,14 @@
-import React, { useState, useEffect } from 'react';
 import { FaSearch, FaUser, FaShoppingCart, FaHeart, FaBell } from 'react-icons/fa';
+import cloudinaryAssets from '../cloudinary-assets.json';
 
 const Navbar = () => {
     return (
         <nav className="flex items-center justify-between px-8 py-4 bg-white shadow-sm sticky top-0 z-50">
             <div className="flex items-center gap-12">
                 <div className="text-2xl font-bold tracking-tighter flex items-center gap-2">
-                    <img 
-                        src="/src/assets/NavbarLogo.png" 
-                        alt="Lavana Logo" 
+                    <img
+                        src={cloudinaryAssets['NavbarLogo.png']}
+                        alt="Lavana Logo"
                         className="h-6 w-14"
                     />
                     Lavana
