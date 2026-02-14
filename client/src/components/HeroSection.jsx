@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { FaArrowRight } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
+import { FaArrowRight, FaShoppingBag } from 'react-icons/fa';
 import { heroSlides } from '../constants';
 
 const HeroSection = () => {
@@ -41,11 +42,12 @@ const HeroSection = () => {
                         </p>
 
                         <div className="flex items-center gap-6">
-                            <button
-                                className={`${slide.btnColor} text-white px-8 py-4 rounded-lg font-semibold shadow-lg transition-transform active:scale-95 flex items-center gap-2`}
+                            <Link
+                                to="/products"
+                                className={`${slide.btnColor} text-white px-8 py-4 rounded-lg font-bold shadow-lg transition-all active:scale-95 flex items-center gap-2 hover:shadow-xl hover:-translate-y-1`}
                             >
                                 Shop Now <FaArrowRight className="text-sm" />
-                            </button>
+                            </Link>
                         </div>
                     </div>
 
@@ -77,9 +79,8 @@ const HeroSection = () => {
                         <button
                             key={index}
                             onClick={() => setCurrentSlide(index)}
-                            className={`w-3 h-3 rounded-full transition-colors ${
-                                currentSlide === index ? 'bg-orange-500' : 'bg-gray-300'
-                            }`}
+                            className={`w-3 h-3 rounded-full transition-colors ${currentSlide === index ? 'bg-orange-500' : 'bg-gray-300'
+                                }`}
                         />
                     ))}
                 </div>

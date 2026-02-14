@@ -1,18 +1,12 @@
 import React from 'react';
-import { heroSlides } from '../constants';
-import Navbar from '../components/Navbar';
 import FeaturedProducts from '../components/FeaturedProducts';
 import ShopByCategory from '../components/ShopByCategory';
 import HeroSection from '../components/HeroSection';
 import CollectionBanner from '../components/CollectionBanner';
-import Footer from '../components/Footer';
 
 const Homepage = () => {
     return (
-        <div style={{fontFamily: 'sans-serif', color: '#1f2937', backgroundColor: '#ffffff', minHeight: '100vh'}}>
-            {/* Navbar */}
-            <Navbar />
-
+        <div style={{ fontFamily: 'sans-serif', color: '#1f2937', backgroundColor: '#ffffff', minHeight: '100vh' }}>
             {/* Hero Section Carousel */}
             <HeroSection />
 
@@ -22,8 +16,6 @@ const Homepage = () => {
             <CollectionBanner />
 
             <ShopByCategory />
-
-            <Footer />
         </div>
     );
 };

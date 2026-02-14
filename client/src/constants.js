@@ -59,81 +59,93 @@ export const heroSlides = [
     }
 ];
 
-// Featured Products Data
+
+// High-quality featured products for the home page carousel
 export const featuredProducts = [
     {
-        id: 1,
-        title: "Suits",
-        category: "Party Wear",
-        price: "Rs. 3,200",
-        originalPrice: "Rs. 4,500",
-        image: "https://res.cloudinary.com/dzb5izmbr/image/upload/v1768666472/ecommerce_assets/pic1.png",
-        badge: "SALE"
-    },
-    {
-        id: 2,
-        title: "Purple cotton Sarees",
-        category: "Casual Wear",
-        price: "Rs. 2,800",
-        image: "https://res.cloudinary.com/dzb5izmbr/image/upload/v1768666475/ecommerce_assets/pic2.png",
-        badge: "NEW"
-    },
-    {
-        id: 3,
-        title: "Gray Business Suit",
-        category: "Formal Wear",
-        price: "Rs. 5,200",
-        originalPrice: "Rs. 6,800",
-        image: "https://res.cloudinary.com/dzb5izmbr/image/upload/v1768666476/ecommerce_assets/pic3.png",
-        badge: "PREMIUM"
-    },
-    {
-        id: 4,
-        title: "Summer Beach Top",
-        category: "Beach Wear",
-        price: "Rs. 1,900",
-        image: "https://res.cloudinary.com/dzb5izmbr/image/upload/v1768666477/ecommerce_assets/pic4.png",
-    },
-    {
-        id: 5,
-        title: "Bottoms",
-        category: "casual wear",
-        price: "Rs. 4,100",
-        originalPrice: "Rs. 5,500",
-        image: "https://res.cloudinary.com/dzb5izmbr/image/upload/v1768666479/ecommerce_assets/pic5.png",
-        badge: "TRENDING"
-    },
-    {
-        id: 6,
-        title: "Modern Chic Outfit",
-        category: "Contemporary",
-        price: "Rs. 3,600",
-        image: "https://res.cloudinary.com/dzb5izmbr/image/upload/v1768666480/ecommerce_assets/pic6.png",
+        id: "feat-1",
+        title: "Mens Premium Collection",
+        category: "Men",
+        price: "Rs. 2,499",
+        originalPrice: "Rs. 3,999",
+        image: "https://images.unsplash.com/photo-1617137968427-859247eb986d?auto=format&fit=crop&w=1000&h=1300&q=80",
         badge: "HOT"
     },
     {
-        id: 7,
-        title: "Dresses",
-        category: "Designer Collection",
-        price: "Rs. 4,800",
-        originalPrice: "Rs. 6,200",
-        image: "https://res.cloudinary.com/dzb5izmbr/image/upload/v1768666481/ecommerce_assets/pic7.png",
+        id: "feat-2",
+        title: "Womens Elite Designer Wear",
+        category: "Women",
+        price: "Rs. 4,200",
+        originalPrice: "Rs. 5,500",
+        image: "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=1000&h=1300&q=80",
+        badge: "SALE"
+    },
+    {
+        id: "feat-3",
+        title: "Luxury Accessories Set",
+        category: "Beauty",
+        price: "Rs. 1,800",
+        image: "https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=1000&h=1300&q=80",
+        badge: "NEW"
+    },
+    {
+        id: "feat-4",
+        title: "Smart Tech Collection",
+        category: "Electronics",
+        price: "Rs. 12,999",
+        originalPrice: "Rs. 15,999",
+        image: "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=1000&h=1300&q=80",
+        badge: "TRENDING"
+    },
+    {
+        id: "feat-5",
+        title: "Designer Party Dress",
+        category: "Women",
+        price: "Rs. 3,500",
+        image: "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?auto=format&fit=crop&w=1000&h=1300&q=80",
         badge: "EXCLUSIVE"
+    },
+    {
+        id: "feat-6",
+        title: "Premium Footwear Series",
+        category: "Men",
+        price: "Rs. 2,999",
+        originalPrice: "Rs. 4,500",
+        image: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=1000&h=1300&q=80",
+        badge: "BESTSELLER"
+    },
+    {
+        id: "feat-7",
+        title: "Kids Special Fashion",
+        category: "Kids",
+        price: "Rs. 1,200",
+        image: "https://images.unsplash.com/photo-1519457431-44cac60fe58a?auto=format&fit=crop&w=1000&h=1300&q=80",
+        badge: "NEW"
+    },
+    {
+        id: "feat-8",
+        title: "Bridal Silk Saree",
+        category: "Women",
+        price: "Rs. 8,500",
+        originalPrice: "Rs. 12,000",
+        image: "https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=1000&h=1300&q=80",
+        badge: "PREMIUM"
     }
 ];
+export const extendedProducts = [];
 
-// Shop Categories Data
+// Shop Categories Data (Main Entry Points)
 export const shopCategories = [
-    { title: "Suits", img: "https://images.pexels.com/photos/1036623/pexels-photo-1036623.jpeg?auto=compress&cs=tinysrgb&w=800" },
-    { title: "Winter Wear", img: "https://images.unsplash.com/photo-1544022613-e87ca75a784a?q=80&w=800&auto=format&fit=crop" },
-    { title: "Sarees", img: "https://images.unsplash.com/photo-1610030469983-98e550d6193c?q=80&w=800&auto=format&fit=crop" },
-    { title: "Dresses", img: "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?q=80&w=800&auto=format&fit=crop" },
-    { title: "Tops", img: "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?q=80&w=800&auto=format&fit=crop" },
-    { title: "Bottoms", img: "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?q=80&w=800&auto=format&fit=crop" },
-    { title: "Ethnic Wear", img: "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?q=80&w=800&auto=format&fit=crop" },
-    { title: "Casual Wear", img: "https://images.unsplash.com/photo-1441986300917-64674bd600d8?q=80&w=800&auto=format&fit=crop" },
-    { title: "Party Wear", img: "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?q=80&w=800&auto=format&fit=crop" },
-    { title: "Sportswear", img: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?q=80&w=800&auto=format&fit=crop" },
-    { title: "Accessories", img: "https://images.unsplash.com/photo-1524863479829-916d8e77f114?q=80&w=800&auto=format&fit=crop" },
-    { title: "Footwear", img: "https://images.unsplash.com/photo-1549298916-b41d501d3772?q=80&w=800&auto=format&fit=crop" }
+    { title: "SUITS", img: "https://images.unsplash.com/photo-1594932224828-b4b059b6f6f9?q=80&w=800&auto=format&fit=crop" },
+    { title: "WINTER WEAR", img: "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?q=80&w=800&auto=format&fit=crop" },
+    { title: "SAREES", img: "https://images.unsplash.com/photo-1610030469983-98e550d6193c?q=80&w=800&auto=format&fit=crop" },
+    { title: "DRESSES", img: "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?q=80&w=800&auto=format&fit=crop" },
+    { title: "TOPS", img: "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?q=80&w=800&auto=format&fit=crop" },
+    { title: "BOTTOMS", img: "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?q=80&w=800&auto=format&fit=crop" },
+    { title: "ETHNIC WEAR", img: "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?q=80&w=800&auto=format&fit=crop" },
+    { title: "CASUAL WEAR", img: "https://images.unsplash.com/photo-1441986300917-64674bd600d8?q=80&w=800&auto=format&fit=crop" },
+    { title: "PARTY WEAR", img: "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?q=80&w=800&auto=format&fit=crop" },
+    { title: "SPORTSWEAR", img: "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?q=80&w=800&auto=format&fit=crop" },
+    { title: "ACCESSORIES", img: "https://images.unsplash.com/photo-1584917865442-de89df76afd3?q=80&w=800&auto=format&fit=crop" },
+    { title: "FOOTWEAR", img: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=800&auto=format&fit=crop" }
 ];

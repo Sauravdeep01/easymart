@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { FaArrowRight } from 'react-icons/fa';
 
 const CollectionBanner = () => {
@@ -15,9 +16,9 @@ const CollectionBanner = () => {
                         We are more than just an online store — we are a platform designed
                         to make shopping effortless, reliable, and enjoyable for everyone.
                     </p>
-                    <button className="bg-pink-200 text-black px-8 py-4 rounded-full font-semibold hover:bg-pink-300 transition-colors flex items-center gap-2">
+                    <Link to="/products" className="bg-pink-200 text-black px-8 py-4 rounded-full font-semibold hover:bg-pink-300 transition-colors inline-flex items-center gap-2">
                         Shop Collection <FaArrowRight className="text-sm" />
-                    </button>
+                    </Link>
                 </div>
                 <div className="flex-1 h-[500px] w-full relative">
                     <div className="absolute inset-0 bg-pink-100 rounded-[50px] -rotate-3 scale-95 z-0"></div>
